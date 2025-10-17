@@ -17,15 +17,15 @@ namespace IntegralCalculator
             try
             {
                 int partitions = int.Parse(txtPartitions.Text);
-                if (partitions <= 0)
+                if (partitions < 0)
                 {
                     MessageBox.Show("Количество разбиений должно быть положительным числом!", "Ошибка",
                                   MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                double lowerLimit = 1;
-                double upperLimit = 100000;
+                double lowerLimit = 0;
+                double upperLimit = 10;
 
                 IIntegralCalculator calculator = new NumericalIntegralCalculator();
 

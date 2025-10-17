@@ -6,7 +6,7 @@ namespace IntegralCalculator
     {
         public double Function(double x)
         {
-            if (x <= 0)
+            if (x < 0)
                 throw new ArgumentException("Аргумент x должен быть положительным числом для вычисления логарифма");
 
             return 2 * x - (Math.Log(7) + Math.Log(x)) - 12;
@@ -52,7 +52,7 @@ namespace IntegralCalculator
             if (n <= 0)
                 throw new ArgumentException("Количество разбиений должно быть положительным числом");
 
-            if (a <= 0)
+            if (a < 0)
                 throw new ArgumentException("Нижний предел интегрирования должен быть положительным для данной функции");
         }
     }
