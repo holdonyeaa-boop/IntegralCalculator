@@ -5,7 +5,7 @@
         Title="Вычисление интеграла - Гилев Н.А. 3-47"
         Height="500" Width="650"
         WindowStartupLocation="CenterScreen"
-        Background="#FFF0F0F0">
+        Background="#FFF0F0F1">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -44,7 +44,7 @@
                    VerticalAlignment="Center" 
                    Margin="0,0,10,5" FontWeight="SemiBold"/>
         <TextBlock Grid.Row="2" Grid.Column="1" 
-                   Text="от 1 до 100 000" 
+                   Text="от 10 до 1000" 
                    FontWeight="Bold" Foreground="#FF0066CC"/>
 
         
@@ -59,7 +59,7 @@
                  Height="30" 
                  FontSize="14"
                  VerticalContentAlignment="Center"
-                 BorderBrush="#FF0078D7" 
+                 BorderBrush="Aquamarine" 
                  BorderThickness="2"/>
 
         
@@ -68,7 +68,7 @@
                 Click="CalculateButton_Click" 
                 Height="40" 
                 Margin="0,25,0,10" 
-                Background="#FF0078D7" 
+                Background="Brown" 
                 Foreground="White" 
                 FontSize="14" 
                 FontWeight="Bold"
