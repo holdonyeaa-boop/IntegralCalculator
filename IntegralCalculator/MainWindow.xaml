@@ -44,7 +44,7 @@
                    VerticalAlignment="Center" 
                    Margin="0,0,10,5" FontWeight="SemiBold"/>
         <TextBlock Grid.Row="2" Grid.Column="1" 
-                   Text="от 1 до 100 000" 
+                   Text="от 10 до 1000" 
                    FontWeight="Bold" Foreground="#FF0066CC"/>
 
         

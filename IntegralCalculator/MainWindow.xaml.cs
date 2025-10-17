@@ -23,8 +23,8 @@ namespace IntegralCalculator
                     return;
                 }
 
-                double lowerLimit = 0;
-                double upperLimit = 10;
+                double lowerLimit = 10;
+                double upperLimit = 1000;
 
                 IIntegralCalculator calculator = new NumericalIntegralCalculator();
 
