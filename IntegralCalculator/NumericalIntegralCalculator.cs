@@ -9,7 +9,7 @@ namespace IntegralCalculator
             if (x < 0)
                 throw new ArgumentException("Аргумент x должен быть положительным числом для вычисления логарифма");
 
-            return 2 * x - (Math.Log(7) + Math.Log(x)) - 12;
+            return x*x;
         }
 
         public double CalculateTrapezoidal(double a, double b, int n)
