@@ -14,7 +14,6 @@ namespace IntegralCalculator
 
         private void CalculateButton_Click(object sender, RoutedEventArgs e)
         {
-            try
             {
                 int partitions = int.Parse(txtPartitions.Text);
                 if (partitions < 0)
