@@ -38,8 +38,8 @@ namespace IntegralCalculator
 
                 Dispatcher.BeginInvoke(new Action(() =>
                 {
-                    txtTrapezoidalResult.Text = $"Метод трапеций: {trapezoidalResult:F10}";
-                    txtMidpointResult.Text = $"Метод средних прямоугольников: {midpointResult:F10}";
+                    txtTrapezoidalResult.Text = $"Метод трапеций: {trapezoidalResult:F3}";
+                    txtMidpointResult.Text = $"Метод средних прямоугольников: {midpointResult:F3}";
                     txtDifference.Text = $"Разница между методами: {difference:E5}";
                     txtTime.Text = $"Время вычисления: {stopwatch.ElapsedMilliseconds} мс";
                 }), DispatcherPriority.Background);
