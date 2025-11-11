@@ -35,7 +35,7 @@
                    VerticalAlignment="Center" 
                    Margin="0,0,10,5" FontWeight="SemiBold"/>
         <TextBlock Grid.Row="1" Grid.Column="1" 
-                   Text="f(x) = 2x - ln(7x) - 12" 
+                   Text="f(x) = x^2" 
                    FontWeight="Bold" Foreground="#FF0066CC"/>
 
         
